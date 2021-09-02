@@ -12,7 +12,7 @@ class Token : Plugin() {
         return Manifest().apply {
             authors = arrayOf(Author("zt", 289556910426816513L))
             description = "Adds a token slash command to tell you your Discord token."
-            version = "1.1.1"
+            version = "1.0.0"
             updateUrl = "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/updater.json"
         }
     }
