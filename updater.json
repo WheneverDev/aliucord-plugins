@@ -1,10 +1,11 @@
 {
-    "default": {
-        "minimumDiscordVersion": 80202,
-        "version": "1.0.0",
-        "build": "https://raw.githubusercontent.com/USERNAME/REPONAME/builds/%s.zip"
-    },
     "Token": {
-        "version": "1.0.0"
+        "version": "1.1.1"
+    },
+
+    "default": {
+        "minimumDiscordVersion": 88202,
+        "version": "1.0.0",
+        "build": "https://raw.githubusercontent.com/WheneverDev/aliucord-plugins/builds/%s.zip"
     }
 }
