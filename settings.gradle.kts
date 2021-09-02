@@ -12,4 +12,4 @@ project(":HelloWorldAdvanced").projectDir = File("./ExamplePlugins/HelloWorldAdv
 include(":MyFirstPatch")
 project(":MyFirstPatch").projectDir = File("./ExamplePlugins/MyFirstPatch")
 
-rootProject.name = "AliucordPlugins"
+rootProject.name = "aliucord-plugin"
