@@ -7,24 +7,15 @@ import androidx.annotation.NonNull;
 
 import com.aliucord.api.CommandsAPI;
 import com.aliucord.entities.Plugin;
+import com.aliucord.annotations.AliucordPlugin;
+
 
 import java.util.Collections;
 
 // This class is never used so your IDE will likely complain. Let's make it shut up!
 @SuppressWarnings("unused")
+@AliucordPlugin
 public class HelloWorld extends Plugin {
-    @NonNull
-    @Override
-    // Plugin Manifest - Required
-    public Manifest getManifest() {
-        var manifest = new Manifest();
-        manifest.authors = new Manifest.Author[]{new Manifest.Author("Whenever", 263001874167365632L)};
-        manifest.description = "Simple Hello World";
-        manifest.version = "1.0.0";
-        manifest.updateUrl = "https://raw.githubusercontent.com/WheneverDev/aliucord-plugins/builds/updater.json";
-        return manifest;
-    }
-
 
     @Override
     // Called when your plugin is started. This is the place to register command, add patches, etc
